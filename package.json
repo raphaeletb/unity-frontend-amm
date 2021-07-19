@@ -84,7 +84,7 @@
   },
   "scripts": {
     "start": "ncp uikit node_modules/@pancakeswap-libs/uikit && ncp sdk node_modules/@pancakeswap-libs/sdk && react-scripts start",
-    "build": "ncp uikit node_modules/@pancakeswap-libs/uikit && ncp sdk node_modules/@pancakeswap-libs/sdk && react-scripts build",
+    "build": "ncp uikit node_modules/@pancakeswap-libs/uikit && ncp sdk node_modules/@pancakeswap-libs/sdk && CI=false react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
